@@ -1,0 +1,57 @@
+Associate Editor
+Comments to the Author:
+Hammarlund et al. study the effect of hitchhiking on the evolution of cooperation in structured populations.  Although the reviewers agree that the work has the potential to make an interesting contribution to the field, they raised two substantial concerns about the manuscript.
+
+1. That important prior theoretical work was ignored (Santos & Szathmary 2008; Powers et al. 2011).  I would add that even theoretical work that was cited was not discussed in sufficient detail (e.g., Morgan et al. 2012; Quigley et al. 2012).  The omission of the Santos & Szathmary paper is specially significant, because it undermines the claim in the abstract that "the combination of [genetic hitchhiking and population structure] has not been appreciated as a solution to the problem of cooperation."
+
+2. The model presented is neither general enough, nor analysed in a sufficiently comprehensive manner.  Several details of the implementation of the model should be clarified and justified (e.g., relationship between population size and frequency of cooperators, initial frequency of cooperators, strictly periodically changing environment).  The effect of at least some of these parameters on the results should be investigated.
+
+In addition, the reviewers make several detailed constructive suggestions for improvements which the authors would do well to consider carefully in a future submission.
+
+
+Reviewers' Comments to Author:
+
+Reviewer: 1
+
+Genetic hitchhiking as a mechanism for spreading of altruistic alleles is a not a new idea. However, according to recent investigations it is not merely an idea among the dozens, but it is supported by experiments. So  it is welcomed if a study adds new points in this area.
+While the abstract forecasts a really exciting paper, I become dissatisfied after reading it. I found numerous questionable assumptions in the model, together with weak robustness of the results.
+In the following I listed my critical comments:
+
+The paper studies the case when all effects modify fitness linearly (see [1], [2]). Clearly this makes the analysis more tractable, but it is well known that nonlinear effects can help the invasion of cooperators and can explain the coexistence of cooperators and defectors (see eg. Hauert et al (2006) J. Theor. Biol, Gore at al. (2009) Nature, Archetti and Scheuring (2012) J. Theor. Biol.). The paper considers the worst case situation in this manner. I suggest to clarify this fact. On the other side the assumption that population size increases linearly with frequency of cooperators definitely helps the cooperators in this model: Increasing population size increases the number of mutants/time and thus speeds up the adaptation. In reality increasing the frequency of cooperators increases the population size in a diminishing manner (nonlinear function), thus the benefit of cooperation diminishes as well. So this is not a worst case situation from this point of view.
+
+The assumption that there are practically many stress types (that is a_i are set to zero after every stress) is unrealistic, even if stress is caused by biotic factors.
+
+A similarly problematic assumption is the strictly periodically changing environment. In reality most stressful effects emerge randomly following some characteristic frequency distribution. For example if it follows a power law distribution (which is rather common) then a very long non-stressed environment period can emerge with a detectable probability. Thus cooperators will not survive for a longer time scale in this modified model.
+
+I think the basic questions are here how cooperators can spread and present continuously in a population. But, according to the figures the paper assumes that the frequency of cooperators is 0.5 initially. This is not an appropriate initial condition since cooperators must emerge as a rare mutant initially.
+
+The paper emphasizes the role of spatially limited dispersal in maintaining cooperation. The limited dispersal only re-scales the system (see Fig S5); that is, more frequent stress is needed for a well mixed population to maintain cooperators, but the mechanism is independent of the population structure.
+
+Some minor points:
+
+The definition of cooperation in the paper (that is, costly behavior that benefits others) is rather the definition of altruism.
+
+Lines 147-148. Although I suspect that fitness-weighted lottery means that reproduction probability is equal to the relative fitness of a type, I suggest to be more definite here.
+
+Lines 160-161. It is not clear what does happen on the edges and corners: Does a part of emigrants disappear from the system or some of them reflected from the edges?
+
+Lines 165-166. I am interested in whether the presented mechanism remains valid or not if alleles affect the dilution rates not the replication rate.
+
+Fig S1: It is not totally clear (at least for me): why do cooperators and defectors coexist in this case? In an individual simulation I suspect either cooperators or defectors go to fixation.
+
+Some relevant references are not mentioned and are not analyzed:
+Santos and Szathmary (2008) BMC Evol. Biol. Genetic hitchhiking can promote the initial spread of strong altruism doi:10.1186/1471-2148-8-281
+Here the authors show how a strong altruist allele can spread by hitchhiking in a deme structured population. So they definitely studied the effect of hitchhiking and population structure together, despite that the manuscript stated that their work is the first one in this direction.
+
+Simon T Powers, Alexandra S Penn, Richard A Watson 2011. Evolution. The concurrent evolution of cooperation and the population structures that support it. DOI: 10.1111/j.1558-5646.2011.01250.x
+Here they studied the coevolution of genes acting on populations structure and altruism
+
+Reviewer: 2
+
+First of all I apologize for taking so long to complete my review.  I will keep my comments brief.
+
+This is a clever paper that I quite enjoyed reading.  To me the most important aspect is the evolution of (costly) cooperation in a changing environment, summarized in Figure 3.  I suggest a larger focus on this result if possible and bringing it to the forefront.  This may truly be an important contribution to understanding both the evolution of cooperation and of spiteful behaviour (which is also a unique problem of evolution to understand).  In nature both population structure and fluctuations are ubiquitous...  The key here is to link transient costs to adaptation; all of which seems reasonable to be operating on some level and I believe this combination has been previously overlooked.  I also enjoyed the derivation of the term "Hankshaw effect;" it's a memorable mental handle to the idea of hitching rides with adaptive alleles and turning a cost into a benefit.
+
+That being said, there are some apparent misunderstandings.  The classic hitchhiking effect (Maynard-Smith and Haigh 1974) is due to linkage between a positively selected mutation and linked neutral loci (not deleterious loci).  You are presenting this more of in the sense of Hartfield, M., & Otto, S. P. (2011. Recombination and hitchhiking of deleterious alleles. Evolution, 65(9), 2421-2434) and possibly Hill, W. G., & Robertson, A. (1966. The effect of linkage on limits to artificial selection. Genetical Research, 8(03), 269-294).  Also, cooperation is not always deleterious, you are focusing on games such as the prisoner's dilemma but there are other classes, equally important, such as the coordination game or stag hunt.  You should qualify your wording where cooperation is equated with cost.  There should also be some integration into the literature (citing work) to support the last paragraph of the introduction (examples of evolution and fragmentation in challenging environments).
+
+Two things that come to mind that might be useful to address or suggest in future work: 1) the effects of genetic load at higher mutation rates on the frequency and persistence of cooperators (is there an effect and why) and perhaps more importantly 2) the role of recombination.  I realize recombination probably goes beyond the scope of this manuscript but it is likely a very important consideration.  There has also been a great deal of interest in the role of recombination on the effects of selection (in the forms of both hitchhiking and background selection) in the literature.  At what range of recombination rates do you still see the types of effect reported here.
